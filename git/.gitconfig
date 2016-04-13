@@ -1,0 +1,20 @@
+[user]
+	name = Guillaume Watteeux
+	# Email and Username define in gitconfig.d
+	# email =
+	# username =
+
+[core]
+	quotepath = false
+	autocrlf = input
+	editor = vim
+
+[merge]
+	tool = vimdiff
+
+[push]
+	default = simple
+
+[include]
+	path = ~/.gitconfig.d/company.gitconfig
+
