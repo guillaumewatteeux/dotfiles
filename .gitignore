@@ -1,4 +1,4 @@
 vim/.vim/bundle/*
-!vim/.vim/bundle/.gitkeep
 git/.gitconfig.d/*
+!.gitignore
 
