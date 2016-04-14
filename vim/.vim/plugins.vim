@@ -73,6 +73,11 @@ let g:NERDTreeWinPos = "left"
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree"
 " =========================================
 
+" ================================= Vim-fugitive
+" Git wrapper
+NeoBundle 'tpope/vim-fugitive'
+" =========================================
+
 
 call neobundle#end()
 
